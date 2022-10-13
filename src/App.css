@@ -32,7 +32,7 @@
 
 .button{
 position: fixed;
-top: 38rem;
+top: 1rem;
 left: 2rem;
 display: flex;
 flex-direction: column;
@@ -124,24 +124,61 @@ cursor: "pointer";
   transition: 0.4s;
 }
 
+
+.itemStyle{
+  background-color: antiquewhite;
+  transition: 0.2s;
+
+}
+
+.itemNameStyle {
+  text-align: "center";
+  font-Size: '22px';
+  color: 'black';
+  transition: 0.2s;
+}
+
 #lightMode {
   background-color: #f4eef6;
   color: black;
-  
+  transition: 0.2s;
 }
 
 #lightMode .App-header {
   background-color: #b358d1;
+  transition: 0.2s;
+
 }
 
 
 #darkMode {
   background-color: #190221;
   color: white;
+  transition: 0.2s;
+
 }
 #darkMode .App-header {
   background-color: #472452;
+  transition: 0.2s;
+
 }
+
+#darkMode .itemStyle {
+  background-color: #472452;
+  transition: 0.2s;
+}
+
+#darkMode .itemNameStyle {
+  color: 'white';
+  transition: 0.2s;
+}
+
+
+
+
+
+
+
 
 
 

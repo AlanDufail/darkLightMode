@@ -22,10 +22,11 @@ function App() {
     }
   };
 
+
   useEffect(() => {
     const myBtn = document.querySelector(".button");
     myBtn.addEventListener("change", toogleDarkLightTheme);
-  });
+  }); 
 
   return (
     <darkLightThemeContext.Provider value={{ theme, toogleDarkLightTheme }}>
